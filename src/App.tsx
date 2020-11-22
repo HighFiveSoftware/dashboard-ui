@@ -1,26 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import { DailyCaseChart } from './components/DailyCaseChart';
+import { DailyCaseOverview } from './components/DailyCaseOverview';
 
-function App() {
+const MainContainer = styled.div`
+  max-width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* align-content: space-around; */
+`;
+
+const TopRow = styled.div``;
+
+const ChartsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const vals = [
+  {
+    name: 'confirmed',
+    value: 1000,
+    dif: 10
+  },
+  {
+    name: 'recoveries',
+    value: 1000,
+    dif: 10
+  },
+  {
+    name: 'deaths',
+    value: 1000,
+    dif: 10
+  }
+];
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainContainer>
+      <TopRow>
+        <DailyCaseOverview title="Turkey Overview" vals={vals} />
+      </TopRow>
+      <ChartsContainer>
+        <DailyCaseChart title="New Cases" />
+        <DailyCaseChart title="Total Cases" />
+      </ChartsContainer>
+    </MainContainer>
   );
-}
+};
 
 export default App;
