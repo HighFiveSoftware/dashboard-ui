@@ -38,5 +38,5 @@ jobs:
       run: yarn format-check
     - name: Build the code
       run: yarn build 
-    - name: Test the code
-      run: yarn test
+    # - name: Test the code
+    #   run: yarn test
