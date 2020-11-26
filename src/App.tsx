@@ -43,7 +43,7 @@ const App: React.FC = () => {
   return (
     <MainContainer>
       <TopRow>
-        <DailyCaseOverview title="Turkey Overview" vals={vals} />
+        <DailyCaseOverview title="Worldwide Cases" vals={vals} />
       </TopRow>
       <ChartsContainer>
         <DailyCaseChart title="New Cases" />
