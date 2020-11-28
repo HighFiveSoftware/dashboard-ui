@@ -20,9 +20,9 @@ export function generateIncreasingNumbers(
 export const Data = [
   {
     name: 'Page A',
-    uv: 4000,
-    pv: 2400,
-    zv: 1000,
+    uv: 8000,
+    pv: 1000,
+    zv: 10,
     amt: 2400
   },
   {
