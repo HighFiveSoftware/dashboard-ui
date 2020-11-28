@@ -28,7 +28,8 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     'object-curly-newline': 'off',
     'react/jsx-one-expression-per-line': 'off',
-    'import/extensions': 'off'
+    'import/extensions': 'off',
+    'import/prefer-default-export': 'off'
   },
   settings: {
     'import/resolver': {
