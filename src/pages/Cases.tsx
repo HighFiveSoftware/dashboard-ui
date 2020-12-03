@@ -1,3 +1,4 @@
+import { RouteComponentProps } from '@reach/router';
 import React from 'react';
 import { DailyCaseChart } from '../components/DailyCaseChart';
 import { DailyCaseOverview } from '../components/DailyCaseOverview';
@@ -21,7 +22,7 @@ const vals = [
   }
 ];
 
-export const Cases = () => {
+export const Cases = (_props: RouteComponentProps) => {
   return (
     <div className={styles.main_container}>
       <div>

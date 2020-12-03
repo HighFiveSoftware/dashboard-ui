@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'no-unused-vars': [2, {'args': 'after-used', 'argsIgnorePattern': '^_'}],
     'react/jsx-filename-extension': [
       2,
       { extensions: ['.ts', '.tsx'] }
