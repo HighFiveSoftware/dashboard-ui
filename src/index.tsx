@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import '@blueprintjs/core/lib/css/blueprint.css';
-// import "@blueprintjs/icons/lib/css/blueprint-icons.css";
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

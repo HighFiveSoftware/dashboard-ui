@@ -8,9 +8,9 @@ import {
   Line,
   ResponsiveContainer
 } from 'recharts';
-import { Card, H2 } from '@blueprintjs/core';
+import { Card } from 'semantic-ui-react';
 import { Data } from '../utils/dataGenerator';
-import styles from './DailyCaseChart.module.css';
+// import styles from './DailyCaseChart.module.css';
 
 // maybe use stroke too
 const CustomXAxisTick = ({ x, y, payload }: any) => (
@@ -26,46 +26,50 @@ export interface DailyCaseChartProps {
 }
 
 export const DailyCaseChart = ({ title }: DailyCaseChartProps) => (
-  <Card className={styles.case_chart} elevation={2}>
-    <H2>{title}</H2>
-    <ResponsiveContainer>
-      <LineChart
-        width={730}
-        height={250}
-        data={Data}
-        margin={{
-          top: 5,
-          right: 30,
-          left: 20,
-          bottom: 5
-        }}
-      >
-        <XAxis dataKey="name" tick={<CustomXAxisTick />} interval={0} />
-        <YAxis orientation="right" axisLine={false} tickLine={false} />
-        <Tooltip />
-        <Legend verticalAlign="bottom" iconType="circle" />
-        <Line
-          type="monotone"
-          dataKey="pv"
-          stroke="#80bdfd"
-          dot={false}
-          strokeWidth={4}
-        />
-        <Line
-          type="monotone"
-          dataKey="uv"
-          stroke="#8eefc1"
-          dot={false}
-          strokeWidth={4}
-        />
-        <Line
-          type="monotone"
-          dataKey="zv"
-          stroke="#ffd085"
-          dot={false}
-          strokeWidth={4}
-        />
-      </LineChart>
-    </ResponsiveContainer>
+  <Card fluid>
+    <Card.Content>
+      <Card.Header>{title}</Card.Header>
+    </Card.Content>
+    <Card.Content style={{ height: '300px' }}>
+      <ResponsiveContainer>
+        <LineChart
+          width={730}
+          height={250}
+          data={Data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5
+          }}
+        >
+          <XAxis dataKey="name" tick={<CustomXAxisTick />} interval={0} />
+          <YAxis orientation="right" axisLine={false} tickLine={false} />
+          <Tooltip />
+          <Legend verticalAlign="bottom" iconType="circle" />
+          <Line
+            type="monotone"
+            dataKey="pv"
+            stroke="#80bdfd"
+            dot={false}
+            strokeWidth={4}
+          />
+          <Line
+            type="monotone"
+            dataKey="uv"
+            stroke="#8eefc1"
+            dot={false}
+            strokeWidth={4}
+          />
+          <Line
+            type="monotone"
+            dataKey="zv"
+            stroke="#ffd085"
+            dot={false}
+            strokeWidth={4}
+          />
+        </LineChart>
+      </ResponsiveContainer>
+    </Card.Content>
   </Card>
 );
