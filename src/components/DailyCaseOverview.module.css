@@ -1,0 +1,15 @@
+.report {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.report_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.report_card {
+  max-width: 50%;
+}

@@ -9,15 +9,8 @@ import {
   ResponsiveContainer
 } from 'recharts';
 import { Card, H2 } from '@blueprintjs/core';
-import styled from 'styled-components';
 import { Data } from '../utils/dataGenerator';
-
-const CaseChartCard = styled(Card)`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 300px;
-`;
+import styles from './DailyCaseChart.module.css';
 
 // maybe use stroke too
 const CustomXAxisTick = ({ x, y, payload }: any) => (
@@ -33,7 +26,7 @@ export interface DailyCaseChartProps {
 }
 
 export const DailyCaseChart = ({ title }: DailyCaseChartProps) => (
-  <CaseChartCard elevation={2} className="daily-case-chart">
+  <Card className={styles.case_chart} elevation={2}>
     <H2>{title}</H2>
     <ResponsiveContainer>
       <LineChart
@@ -74,5 +67,5 @@ export const DailyCaseChart = ({ title }: DailyCaseChartProps) => (
         />
       </LineChart>
     </ResponsiveContainer>
-  </CaseChartCard>
+  </Card>
 );
