@@ -9,6 +9,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "eslint src/**/*.ts{,x}",
+    "lint:fix": "yarn lint --fix src/",
     "format-check": "prettier --check src/**/*.ts{,x}"
   },
   "browserslist": {
@@ -24,32 +25,34 @@
     ]
   },
   "dependencies": {
+    "@hookform/devtools": "^2.2.1",
     "@reach/router": "^1.3.4",
-    "date-fns": "^2.16.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-query": "^2.26.3",
-    "react-scripts": "^4.0.0",
-    "recharts": "^2.0.0-beta.8",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1",
-    "typescript": "4.0.3",
-    "web-vitals": "^0.2.4",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
-    "@types/recharts": "^1.8.16",
+    "@testing-library/dom": "^7.21.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@testing-library/dom": "^7.21.4"
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/recharts": "^1.8.16",
+    "date-fns": "^2.16.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.12.2",
+    "react-query": "^2.26.3",
+    "react-scripts": "^4.0.1",
+    "recharts": "^2.0.0-beta.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "typescript": "4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@types/reach__router": "^1.3.6",
-    "@typescript-eslint/eslint-plugin": "^4.8.1",
-    "@typescript-eslint/parser": "^4.8.1",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
@@ -58,10 +61,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.2.0",
+    "prettier": "^2.2.1",
     "react-is": "^17.0.1"
-  },
-  "resolutions": {
-    "styled-components": "^5"
   }
 }

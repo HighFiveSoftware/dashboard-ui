@@ -1,5 +1,4 @@
 import { RouteComponentProps } from '@reach/router';
-import React from 'react';
 import { Container, Grid } from 'semantic-ui-react';
 import { DailyCaseChart } from '../components/DailyCaseChart';
 import { DailyCaseStatistics } from '../components/DailyCaseStatistics';

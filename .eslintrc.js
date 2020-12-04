@@ -30,7 +30,9 @@ module.exports = {
     'object-curly-newline': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'import/extensions': 'off',
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off'
   },
   settings: {
     'import/resolver': {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Statistic, Card } from 'semantic-ui-react';
 import styles from './DailyCaseStatistics.module.css';
 
