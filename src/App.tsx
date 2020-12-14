@@ -7,11 +7,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/:country?">
-          <Cases />
-        </Route>
         <Route path="/login">
           <LoginForm />
+        </Route>
+        <Route path="/:country?">
+          <Cases />
         </Route>
       </Switch>
     </Router>
