@@ -30,7 +30,7 @@ exports[`<Cases /> country cases page renders as expected 1`] = `
               class="content statistics_container"
             >
               <div
-                class="ui tiny statistics"
+                class="ui small statistics"
               >
                 <div
                   class="ui statistic"
@@ -38,7 +38,7 @@ exports[`<Cases /> country cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    68,225,435
+                    68.23M
                   </div>
                   <div
                     class="label"
@@ -52,7 +52,7 @@ exports[`<Cases /> country cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    1,556,831
+                    1.56M
                   </div>
                   <div
                     class="label"
@@ -66,7 +66,7 @@ exports[`<Cases /> country cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    43,956,174
+                    43.96M
                   </div>
                   <div
                     class="label"
@@ -180,7 +180,7 @@ exports[`<Cases /> worldwide cases page renders as expected 1`] = `
               class="content statistics_container"
             >
               <div
-                class="ui tiny statistics"
+                class="ui small statistics"
               >
                 <div
                   class="ui statistic"
@@ -188,7 +188,7 @@ exports[`<Cases /> worldwide cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    68,225,435
+                    68.23M
                   </div>
                   <div
                     class="label"
@@ -202,7 +202,7 @@ exports[`<Cases /> worldwide cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    1,556,831
+                    1.56M
                   </div>
                   <div
                     class="label"
@@ -216,7 +216,7 @@ exports[`<Cases /> worldwide cases page renders as expected 1`] = `
                   <div
                     class="value"
                   >
-                    43,956,174
+                    43.96M
                   </div>
                   <div
                     class="label"

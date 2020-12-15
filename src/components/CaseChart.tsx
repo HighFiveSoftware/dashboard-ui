@@ -8,22 +8,15 @@ import {
   ResponsiveContainer
 } from 'recharts';
 import { Card } from 'semantic-ui-react';
-import { format } from 'date-fns';
+import { format, isValid } from 'date-fns';
 import { ICase } from '../pages/Cases';
 import { capitalize } from '../utils/utils';
-// import styles from './CaseChart.module.css';
-
-// maybe use stroke too
-// const CustomXAxisTick = ({ x, y, payload }: any) => (
-//   <g transform={`translate(${x},${y})`}>
-//     <text x={0} y={0} dy={16} textAnchor="middle" fill="#666">
-//       {format(payload.value, 'MM/dd/yyyy')}
-//     </text>
-//   </g>
-// );
 
 const FormatAxis = (tickItem: Date) => {
-  return format(tickItem, 'MM/dd/yyyy');
+  if (isValid(tickItem)) {
+    return format(tickItem, 'MM/dd/yyyy');
+  }
+  return 'NaN';
 };
 
 export interface DailyCaseChartProps {
@@ -63,6 +56,7 @@ export const CaseChart = ({ title, values, dataKey }: DailyCaseChartProps) => (
             tickLine={false}
             tickCount={10}
             tickFormatter={(tick) => {
+              /* istanbul ignore next */
               return tick.toLocaleString();
             }}
             allowDataOverflow

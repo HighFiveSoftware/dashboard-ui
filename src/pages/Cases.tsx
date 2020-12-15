@@ -64,32 +64,34 @@ export const Cases = () => {
         </Message>
       )}
 
-      {!error && (
-        <Grid divided="vertically">
-          <Grid.Row>
-            <Grid.Column width={8}>
-              <CaseStatistics
-                title={`${country ? capitalize(country) : 'Worldwide'} Cases`}
-                values={[
-                  cases[cases.length - 1].confirmedToday,
-                  cases[cases.length - 1].deathsToday,
-                  cases[cases.length - 1].recoveredToday
-                ]}
-              />
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
-              <CaseChart title="Total Cases" values={cases} dataKey="today" />
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
-              <CaseChart title="New Cases" values={cases} dataKey="change" />
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      )}
+      <Grid divided="vertically">
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <CaseStatistics
+              title={`${country ? capitalize(country) : 'Worldwide'} Cases`}
+              values={
+                cases.length > 0
+                  ? [
+                      cases[cases.length - 1].confirmedToday,
+                      cases[cases.length - 1].deathsToday,
+                      cases[cases.length - 1].recoveredToday
+                    ]
+                  : [0, 0, 0]
+              }
+            />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column>
+            <CaseChart title="Total Cases" values={cases} dataKey="today" />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column>
+            <CaseChart title="New Cases" values={cases} dataKey="change" />
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
     </Container>
   );
 };
