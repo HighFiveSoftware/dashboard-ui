@@ -1,0 +1,302 @@
+[
+    {
+        "confirmedChange": 33198,
+        "confirmedToday": 893630,
+        "countryRegion": "Turkey",
+        "deathsChange": 211,
+        "deathsToday": 15314,
+        "entryDate": "2020-12-09T00:00:00",
+        "recoveredChange": 5245,
+        "recoveredToday": 441515
+    },
+    {
+        "confirmedChange": 32137,
+        "confirmedToday": 860432,
+        "countryRegion": "Turkey",
+        "deathsChange": 203,
+        "deathsToday": 15103,
+        "entryDate": "2020-12-08T00:00:00",
+        "recoveredChange": 5017,
+        "recoveredToday": 436270
+    },
+    {
+        "confirmedChange": 30402,
+        "confirmedToday": 828295,
+        "countryRegion": "Turkey",
+        "deathsChange": 195,
+        "deathsToday": 14900,
+        "entryDate": "2020-12-07T00:00:00",
+        "recoveredChange": 4011,
+        "recoveredToday": 431253
+    },
+    {
+        "confirmedChange": 31896,
+        "confirmedToday": 797893,
+        "countryRegion": "Turkey",
+        "deathsChange": 196,
+        "deathsToday": 14705,
+        "entryDate": "2020-12-06T00:00:00",
+        "recoveredChange": 4100,
+        "recoveredToday": 427242
+    },
+    {
+        "confirmedChange": 32736,
+        "confirmedToday": 765997,
+        "countryRegion": "Turkey",
+        "deathsChange": 193,
+        "deathsToday": 14509,
+        "entryDate": "2020-12-05T00:00:00",
+        "recoveredChange": 4811,
+        "recoveredToday": 423142
+    },
+    {
+        "confirmedChange": 32381,
+        "confirmedToday": 733261,
+        "countryRegion": "Turkey",
+        "deathsChange": 187,
+        "deathsToday": 14316,
+        "entryDate": "2020-12-04T00:00:00",
+        "recoveredChange": 4190,
+        "recoveredToday": 418331
+    },
+    {
+        "confirmedChange": 31923,
+        "confirmedToday": 700880,
+        "countryRegion": "Turkey",
+        "deathsChange": 193,
+        "deathsToday": 14129,
+        "entryDate": "2020-12-03T00:00:00",
+        "recoveredChange": 4821,
+        "recoveredToday": 414141
+    },
+    {
+        "confirmedChange": 30110,
+        "confirmedToday": 668957,
+        "countryRegion": "Turkey",
+        "deathsChange": 190,
+        "deathsToday": 13936,
+        "entryDate": "2020-12-02T00:00:00",
+        "recoveredChange": 4593,
+        "recoveredToday": 409320
+    },
+    {
+        "confirmedChange": 31219,
+        "confirmedToday": 638847,
+        "countryRegion": "Turkey",
+        "deathsChange": 188,
+        "deathsToday": 13746,
+        "entryDate": "2020-12-01T00:00:00",
+        "recoveredChange": 4485,
+        "recoveredToday": 404727
+    },
+    {
+        "confirmedChange": 29281,
+        "confirmedToday": 607628,
+        "countryRegion": "Turkey",
+        "deathsChange": 185,
+        "deathsToday": 13558,
+        "entryDate": "2020-11-30T00:00:00",
+        "recoveredChange": 4015,
+        "recoveredToday": 400242
+    },
+    {
+        "confirmedChange": 30103,
+        "confirmedToday": 578347,
+        "countryRegion": "Turkey",
+        "deathsChange": 182,
+        "deathsToday": 13373,
+        "entryDate": "2020-11-29T00:00:00",
+        "recoveredChange": 3611,
+        "recoveredToday": 396227
+    },
+    {
+        "confirmedChange": 44506,
+        "confirmedToday": 548244,
+        "countryRegion": "Turkey",
+        "deathsChange": 177,
+        "deathsToday": 13191,
+        "entryDate": "2020-11-28T00:00:00",
+        "recoveredChange": 3845,
+        "recoveredToday": 392616
+    },
+    {
+        "confirmedChange": 36008,
+        "confirmedToday": 503738,
+        "countryRegion": "Turkey",
+        "deathsChange": 174,
+        "deathsToday": 13014,
+        "entryDate": "2020-11-27T00:00:00",
+        "recoveredChange": 3291,
+        "recoveredToday": 388771
+    },
+    {
+        "confirmedChange": 6814,
+        "confirmedToday": 467730,
+        "countryRegion": "Turkey",
+        "deathsChange": 168,
+        "deathsToday": 12840,
+        "entryDate": "2020-11-26T00:00:00",
+        "recoveredChange": 3911,
+        "recoveredToday": 385480
+    },
+    {
+        "confirmedChange": 7381,
+        "confirmedToday": 460916,
+        "countryRegion": "Turkey",
+        "deathsChange": 161,
+        "deathsToday": 12672,
+        "entryDate": "2020-11-25T00:00:00",
+        "recoveredChange": 3678,
+        "recoveredToday": 381569
+    },
+    {
+        "confirmedChange": 6713,
+        "confirmedToday": 453535,
+        "countryRegion": "Turkey",
+        "deathsChange": 153,
+        "deathsToday": 12511,
+        "entryDate": "2020-11-24T00:00:00",
+        "recoveredChange": 3254,
+        "recoveredToday": 377891
+    },
+    {
+        "confirmedChange": 6017,
+        "confirmedToday": 446822,
+        "countryRegion": "Turkey",
+        "deathsChange": 139,
+        "deathsToday": 12358,
+        "entryDate": "2020-11-23T00:00:00",
+        "recoveredChange": 3812,
+        "recoveredToday": 374637
+    },
+    {
+        "confirmedChange": 5532,
+        "confirmedToday": 440805,
+        "countryRegion": "Turkey",
+        "deathsChange": 135,
+        "deathsToday": 12219,
+        "entryDate": "2020-11-22T00:00:00",
+        "recoveredChange": 3233,
+        "recoveredToday": 370825
+    },
+    {
+        "confirmedChange": 5103,
+        "confirmedToday": 435273,
+        "countryRegion": "Turkey",
+        "deathsChange": 141,
+        "deathsToday": 12084,
+        "entryDate": "2020-11-21T00:00:00",
+        "recoveredChange": 3019,
+        "recoveredToday": 367592
+    },
+    {
+        "confirmedChange": 4542,
+        "confirmedToday": 430170,
+        "countryRegion": "Turkey",
+        "deathsChange": 123,
+        "deathsToday": 11943,
+        "entryDate": "2020-11-20T00:00:00",
+        "recoveredChange": 2918,
+        "recoveredToday": 364573
+    },
+    {
+        "confirmedChange": 4215,
+        "confirmedToday": 425628,
+        "countryRegion": "Turkey",
+        "deathsChange": 116,
+        "deathsToday": 11820,
+        "entryDate": "2020-11-19T00:00:00",
+        "recoveredChange": 2592,
+        "recoveredToday": 361655
+    },
+    {
+        "confirmedChange": 3819,
+        "confirmedToday": 421413,
+        "countryRegion": "Turkey",
+        "deathsChange": 103,
+        "deathsToday": 11704,
+        "entryDate": "2020-11-18T00:00:00",
+        "recoveredChange": 2688,
+        "recoveredToday": 359063
+    },
+    {
+        "confirmedChange": 3316,
+        "confirmedToday": 417594,
+        "countryRegion": "Turkey",
+        "deathsChange": 94,
+        "deathsToday": 11601,
+        "entryDate": "2020-11-17T00:00:00",
+        "recoveredChange": 2712,
+        "recoveredToday": 356375
+    },
+    {
+        "confirmedChange": 3223,
+        "confirmedToday": 414278,
+        "countryRegion": "Turkey",
+        "deathsChange": 89,
+        "deathsToday": 11507,
+        "entryDate": "2020-11-16T00:00:00",
+        "recoveredChange": 2561,
+        "recoveredToday": 353663
+    },
+    {
+        "confirmedChange": 3116,
+        "confirmedToday": 411055,
+        "countryRegion": "Turkey",
+        "deathsChange": 92,
+        "deathsToday": 11418,
+        "entryDate": "2020-11-15T00:00:00",
+        "recoveredChange": 2298,
+        "recoveredToday": 351102
+    },
+    {
+        "confirmedChange": 3045,
+        "confirmedToday": 407939,
+        "countryRegion": "Turkey",
+        "deathsChange": 93,
+        "deathsToday": 11326,
+        "entryDate": "2020-11-14T00:00:00",
+        "recoveredChange": 2010,
+        "recoveredToday": 348804
+    },
+    {
+        "confirmedChange": 2841,
+        "confirmedToday": 404894,
+        "countryRegion": "Turkey",
+        "deathsChange": 88,
+        "deathsToday": 11233,
+        "entryDate": "2020-11-13T00:00:00",
+        "recoveredChange": 2181,
+        "recoveredToday": 346794
+    },
+    {
+        "confirmedChange": 2693,
+        "confirmedToday": 402053,
+        "countryRegion": "Turkey",
+        "deathsChange": 86,
+        "deathsToday": 11145,
+        "entryDate": "2020-11-12T00:00:00",
+        "recoveredChange": 2112,
+        "recoveredToday": 344613
+    },
+    {
+        "confirmedChange": 2529,
+        "confirmedToday": 399360,
+        "countryRegion": "Turkey",
+        "deathsChange": 87,
+        "deathsToday": 11059,
+        "entryDate": "2020-11-11T00:00:00",
+        "recoveredChange": 2215,
+        "recoveredToday": 342501
+    },
+    {
+        "confirmedChange": 2576,
+        "confirmedToday": 396831,
+        "countryRegion": "Turkey",
+        "deathsChange": 85,
+        "deathsToday": 10972,
+        "entryDate": "2020-11-10T00:00:00",
+        "recoveredChange": 2047,
+        "recoveredToday": 340286
+    }
+]

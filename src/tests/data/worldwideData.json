@@ -1,0 +1,302 @@
+[
+    {
+        "confirmedChange": 634394,
+        "confirmedToday": 68225435,
+        "countryRegion": "worldwide",
+        "deathsChange": 12302,
+        "deathsToday": 1556831,
+        "entryDate": "2020-12-09T00:00:00",
+        "recoveredChange": 440723,
+        "recoveredToday": 43956174
+    },
+    {
+        "confirmedChange": 517590,
+        "confirmedToday": 67591041,
+        "countryRegion": "worldwide",
+        "deathsChange": 8477,
+        "deathsToday": 1544529,
+        "entryDate": "2020-12-08T00:00:00",
+        "recoveredChange": 411632,
+        "recoveredToday": 43515451
+    },
+    {
+        "confirmedChange": 533671,
+        "confirmedToday": 67073451,
+        "countryRegion": "worldwide",
+        "deathsChange": 7188,
+        "deathsToday": 1536052,
+        "entryDate": "2020-12-07T00:00:00",
+        "recoveredChange": 313948,
+        "recoveredToday": 43103819
+    },
+    {
+        "confirmedChange": 640584,
+        "confirmedToday": 66539780,
+        "countryRegion": "worldwide",
+        "deathsChange": 10198,
+        "deathsToday": 1528864,
+        "entryDate": "2020-12-06T00:00:00",
+        "recoveredChange": 437858,
+        "recoveredToday": 42789871
+    },
+    {
+        "confirmedChange": 678316,
+        "confirmedToday": 65899196,
+        "countryRegion": "worldwide",
+        "deathsChange": 12410,
+        "deathsToday": 1518666,
+        "entryDate": "2020-12-05T00:00:00",
+        "recoveredChange": 419930,
+        "recoveredToday": 42352013
+    },
+    {
+        "confirmedChange": 690523,
+        "confirmedToday": 65220880,
+        "countryRegion": "worldwide",
+        "deathsChange": 12518,
+        "deathsToday": 1506256,
+        "entryDate": "2020-12-04T00:00:00",
+        "recoveredChange": 435773,
+        "recoveredToday": 41932083
+    },
+    {
+        "confirmedChange": 646568,
+        "confirmedToday": 64530357,
+        "countryRegion": "worldwide",
+        "deathsChange": 12436,
+        "deathsToday": 1493738,
+        "entryDate": "2020-12-03T00:00:00",
+        "recoveredChange": 461384,
+        "recoveredToday": 41496310
+    },
+    {
+        "confirmedChange": 604959,
+        "confirmedToday": 63883789,
+        "countryRegion": "worldwide",
+        "deathsChange": 12848,
+        "deathsToday": 1481302,
+        "entryDate": "2020-12-02T00:00:00",
+        "recoveredChange": 475581,
+        "recoveredToday": 41034926
+    },
+    {
+        "confirmedChange": 505910,
+        "confirmedToday": 63278830,
+        "countryRegion": "worldwide",
+        "deathsChange": 8687,
+        "deathsToday": 1468454,
+        "entryDate": "2020-12-01T00:00:00",
+        "recoveredChange": 401387,
+        "recoveredToday": 40559345
+    },
+    {
+        "confirmedChange": 486678,
+        "confirmedToday": 62772920,
+        "countryRegion": "worldwide",
+        "deathsChange": 6919,
+        "deathsToday": 1459767,
+        "entryDate": "2020-11-30T00:00:00",
+        "recoveredChange": 326098,
+        "recoveredToday": 40157958
+    },
+    {
+        "confirmedChange": 598701,
+        "confirmedToday": 62286242,
+        "countryRegion": "worldwide",
+        "deathsChange": 9742,
+        "deathsToday": 1452848,
+        "entryDate": "2020-11-29T00:00:00",
+        "recoveredChange": 355204,
+        "recoveredToday": 39831860
+    },
+    {
+        "confirmedChange": 672318,
+        "confirmedToday": 61687541,
+        "countryRegion": "worldwide",
+        "deathsChange": 10621,
+        "deathsToday": 1443106,
+        "entryDate": "2020-11-28T00:00:00",
+        "recoveredChange": 376720,
+        "recoveredToday": 39476656
+    },
+    {
+        "confirmedChange": 581314,
+        "confirmedToday": 61015223,
+        "countryRegion": "worldwide",
+        "deathsChange": 10741,
+        "deathsToday": 1432485,
+        "entryDate": "2020-11-27T00:00:00",
+        "recoveredChange": 365223,
+        "recoveredToday": 39099936
+    },
+    {
+        "confirmedChange": 633045,
+        "confirmedToday": 60433909,
+        "countryRegion": "worldwide",
+        "deathsChange": 12057,
+        "deathsToday": 1421744,
+        "entryDate": "2020-11-26T00:00:00",
+        "recoveredChange": 436977,
+        "recoveredToday": 38734713
+    },
+    {
+        "confirmedChange": 588303,
+        "confirmedToday": 59800864,
+        "countryRegion": "worldwide",
+        "deathsChange": 12778,
+        "deathsToday": 1409687,
+        "entryDate": "2020-11-25T00:00:00",
+        "recoveredChange": 371532,
+        "recoveredToday": 38297736
+    },
+    {
+        "confirmedChange": 521699,
+        "confirmedToday": 59212561,
+        "countryRegion": "worldwide",
+        "deathsChange": 8314,
+        "deathsToday": 1396909,
+        "entryDate": "2020-11-24T00:00:00",
+        "recoveredChange": 410047,
+        "recoveredToday": 37926204
+    },
+    {
+        "confirmedChange": 484273,
+        "confirmedToday": 58690862,
+        "countryRegion": "worldwide",
+        "deathsChange": 7060,
+        "deathsToday": 1388595,
+        "entryDate": "2020-11-23T00:00:00",
+        "recoveredChange": 272397,
+        "recoveredToday": 37516157
+    },
+    {
+        "confirmedChange": 586335,
+        "confirmedToday": 58206589,
+        "countryRegion": "worldwide",
+        "deathsChange": 8784,
+        "deathsToday": 1381535,
+        "entryDate": "2020-11-22T00:00:00",
+        "recoveredChange": 339219,
+        "recoveredToday": 37243760
+    },
+    {
+        "confirmedChange": 665858,
+        "confirmedToday": 57620254,
+        "countryRegion": "worldwide",
+        "deathsChange": 11838,
+        "deathsToday": 1372751,
+        "entryDate": "2020-11-21T00:00:00",
+        "recoveredChange": 355375,
+        "recoveredToday": 36904541
+    },
+    {
+        "confirmedChange": 650767,
+        "confirmedToday": 56954396,
+        "countryRegion": "worldwide",
+        "deathsChange": 10981,
+        "deathsToday": 1360913,
+        "entryDate": "2020-11-20T00:00:00",
+        "recoveredChange": 373087,
+        "recoveredToday": 36549166
+    },
+    {
+        "confirmedChange": 624072,
+        "confirmedToday": 56303629,
+        "countryRegion": "worldwide",
+        "deathsChange": 11327,
+        "deathsToday": 1349932,
+        "entryDate": "2020-11-19T00:00:00",
+        "recoveredChange": 363147,
+        "recoveredToday": 36176079
+    },
+    {
+        "confirmedChange": 608968,
+        "confirmedToday": 55679557,
+        "countryRegion": "worldwide",
+        "deathsChange": 11108,
+        "deathsToday": 1338605,
+        "entryDate": "2020-11-18T00:00:00",
+        "recoveredChange": 434692,
+        "recoveredToday": 35812932
+    },
+    {
+        "confirmedChange": 528314,
+        "confirmedToday": 55070589,
+        "countryRegion": "worldwide",
+        "deathsChange": 7839,
+        "deathsToday": 1327497,
+        "entryDate": "2020-11-17T00:00:00",
+        "recoveredChange": 388711,
+        "recoveredToday": 35378240
+    },
+    {
+        "confirmedChange": 473653,
+        "confirmedToday": 54542275,
+        "countryRegion": "worldwide",
+        "deathsChange": 6260,
+        "deathsToday": 1319658,
+        "entryDate": "2020-11-16T00:00:00",
+        "recoveredChange": 229697,
+        "recoveredToday": 34989529
+    },
+    {
+        "confirmedChange": 593937,
+        "confirmedToday": 54068622,
+        "countryRegion": "worldwide",
+        "deathsChange": 8992,
+        "deathsToday": 1313398,
+        "entryDate": "2020-11-15T00:00:00",
+        "recoveredChange": 278074,
+        "recoveredToday": 34759832
+    },
+    {
+        "confirmedChange": 649123,
+        "confirmedToday": 53474685,
+        "countryRegion": "worldwide",
+        "deathsChange": 9553,
+        "deathsToday": 1304406,
+        "entryDate": "2020-11-14T00:00:00",
+        "recoveredChange": 302045,
+        "recoveredToday": 34481758
+    },
+    {
+        "confirmedChange": 647336,
+        "confirmedToday": 52825562,
+        "countryRegion": "worldwide",
+        "deathsChange": 9949,
+        "deathsToday": 1294853,
+        "entryDate": "2020-11-13T00:00:00",
+        "recoveredChange": 225430,
+        "recoveredToday": 34179713
+    },
+    {
+        "confirmedChange": 645408,
+        "confirmedToday": 52178226,
+        "countryRegion": "worldwide",
+        "deathsChange": 10330,
+        "deathsToday": 1284904,
+        "entryDate": "2020-11-12T00:00:00",
+        "recoveredChange": 380362,
+        "recoveredToday": 33954283
+    },
+    {
+        "confirmedChange": 560867,
+        "confirmedToday": 51532818,
+        "countryRegion": "worldwide",
+        "deathsChange": 10252,
+        "deathsToday": 1274574,
+        "entryDate": "2020-11-11T00:00:00",
+        "recoveredChange": 257004,
+        "recoveredToday": 33573921
+    },
+    {
+        "confirmedChange": 467905,
+        "confirmedToday": 50971951,
+        "countryRegion": "worldwide",
+        "deathsChange": 6995,
+        "deathsToday": 1264322,
+        "entryDate": "2020-11-10T00:00:00",
+        "recoveredChange": 256720,
+        "recoveredToday": 33316917
+    }
+]

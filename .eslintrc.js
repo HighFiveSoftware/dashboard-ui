@@ -1,14 +1,16 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    // "jest/globals": true
   },
   extends: [
     'plugin:react/recommended',
     'airbnb',
     'prettier',
     'prettier/@typescript-eslint',
-    'prettier/react'
+    'prettier/react',
+    'plugin:jest/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -18,7 +20,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {
     'no-unused-vars': [2, {'args': 'after-used', 'argsIgnorePattern': '^_'}],
     'react/jsx-filename-extension': [

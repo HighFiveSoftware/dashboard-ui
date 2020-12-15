@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cases /> country cases page renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="ui container main_container"
+  >
+    <div
+      class="ui vertically divided grid"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="eight wide column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                Worldwide Cases
+              </div>
+            </div>
+            <div
+              class="content statistics_container"
+            >
+              <div
+                class="ui tiny statistics"
+              >
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    68,225,435
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Confirmed
+                  </div>
+                </div>
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    1,556,831
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Deaths
+                  </div>
+                </div>
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    43,956,174
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Recovered
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                Total Cases
+              </div>
+            </div>
+            <div
+              class="content"
+              style="height: 300px;"
+            >
+              <div
+                class="recharts-responsive-container"
+                id="undefined"
+                style="width: 100%; height: 100%;"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                New Cases
+              </div>
+            </div>
+            <div
+              class="content"
+              style="height: 300px;"
+            >
+              <div
+                class="recharts-responsive-container"
+                id="undefined"
+                style="width: 100%; height: 100%;"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Cases /> worldwide cases page renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="ui container main_container"
+  >
+    <div
+      class="ui vertically divided grid"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="eight wide column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                Worldwide Cases
+              </div>
+            </div>
+            <div
+              class="content statistics_container"
+            >
+              <div
+                class="ui tiny statistics"
+              >
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    68,225,435
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Confirmed
+                  </div>
+                </div>
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    1,556,831
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Deaths
+                  </div>
+                </div>
+                <div
+                  class="ui statistic"
+                >
+                  <div
+                    class="value"
+                  >
+                    43,956,174
+                  </div>
+                  <div
+                    class="label"
+                  >
+                    Recovered
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                Total Cases
+              </div>
+            </div>
+            <div
+              class="content"
+              style="height: 300px;"
+            >
+              <div
+                class="recharts-responsive-container"
+                id="undefined"
+                style="width: 100%; height: 100%;"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="column"
+        >
+          <div
+            class="ui fluid card"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="header"
+              >
+                New Cases
+              </div>
+            </div>
+            <div
+              class="content"
+              style="height: 300px;"
+            >
+              <div
+                class="recharts-responsive-container"
+                id="undefined"
+                style="width: 100%; height: 100%;"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
