@@ -1,19 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Cases } from './pages/Cases';
+import { Router } from '@reach/router';
+import { WorldwideCases } from './pages/WorldwideCases';
 import { LoginForm } from './pages/LoginForm';
+import { CountryCases } from './pages/CountryCases';
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/login">
-          <LoginForm />
-        </Route>
-        <Route path="/:country?">
-          <Cases />
-        </Route>
-      </Switch>
+      <WorldwideCases path="/" />
+      <LoginForm path="login" />
+      <CountryCases path=":country" />
     </Router>
   );
 };

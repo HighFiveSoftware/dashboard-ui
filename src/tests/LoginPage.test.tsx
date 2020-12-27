@@ -4,7 +4,7 @@ import '@testing-library/jest-dom/extend-expect';
 import { LoginForm } from '../pages/LoginForm';
 
 describe('<LoginForm />', () => {
-  test('form renders as expected', async () => {
+  test('correctly renders form page', async () => {
     render(<LoginForm />);
 
     expect(
@@ -15,7 +15,7 @@ describe('<LoginForm />', () => {
     ).not.toBeEmptyDOMElement();
   });
 
-  test('worldwide cases page renders as expected', async () => {
+  test('form page renders as expected', async () => {
     const component = render(<LoginForm />);
 
     expect(component.asFragment()).toMatchSnapshot();

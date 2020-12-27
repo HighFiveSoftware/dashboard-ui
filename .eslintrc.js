@@ -35,7 +35,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    "react/no-unescaped-entities": 'off'
+    'react/no-unescaped-entities': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/require-default-props': 'off'
   },
   settings: {
     'import/resolver': {
