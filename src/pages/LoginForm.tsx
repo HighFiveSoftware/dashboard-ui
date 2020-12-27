@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button, Form, Grid, Header, Segment } from 'semantic-ui-react';
+import { RouteComponentProps } from '@reach/router';
 
-export const LoginForm = () => (
+// eslint-disable-next-line no-unused-vars
+export const LoginForm = (props: RouteComponentProps) => (
   <Grid textAlign="center" style={{ height: '100vh' }} verticalAlign="middle">
     <Grid.Column style={{ maxWidth: 450 }}>
       <Header as="h2" textAlign="center">

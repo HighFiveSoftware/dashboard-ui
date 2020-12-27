@@ -5,9 +5,11 @@ import { screen, waitForElementToBeRemoved } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import worldWideData from './data/worldwideData.json';
 import countryData from './data/countryData.json';
-import { Cases } from '../pages/Cases';
-import { renderWithRouterMatch } from './utils';
+import topCountryData from './data/topCountryData.json';
+import { WorldwideCases } from '../pages/WorldwideCases';
+import { renderWithRouterWrapper } from './utils';
 import { API_URL } from '../constants';
+import { CountryCases } from '../pages/CountryCases';
 
 const server = setupServer(
   rest.get(`${API_URL}/cases/`, (req, res, ctx) => {
@@ -16,6 +18,10 @@ const server = setupServer(
       return res(ctx.json(countryData));
     }
     return res(ctx.json(worldWideData));
+  }),
+
+  rest.get(`${API_URL}/cases/topCountries`, (req, res, ctx) => {
+    return res(ctx.json(topCountryData));
   })
 );
 
@@ -25,7 +31,7 @@ afterAll(() => server.close());
 
 describe('<Cases />', () => {
   test('correctly renders with default route', async () => {
-    renderWithRouterMatch(Cases, { path: '/:country?', route: '/' });
+    renderWithRouterWrapper(<WorldwideCases path="/" />, { route: '/' });
 
     await waitForElementToBeRemoved(() => screen.getByText(/loading/i));
 
@@ -34,7 +40,9 @@ describe('<Cases />', () => {
   });
 
   test('correctly renders with a country route', async () => {
-    renderWithRouterMatch(Cases, { path: '/:country?', route: '/turkey' });
+    renderWithRouterWrapper(<CountryCases path=":country" />, {
+      route: '/turkey'
+    });
 
     await waitForElementToBeRemoved(() => screen.getByText(/loading/i));
 
@@ -43,8 +51,7 @@ describe('<Cases />', () => {
   });
 
   test('worldwide cases page renders as expected', async () => {
-    const component = renderWithRouterMatch(Cases, {
-      path: '/:country?',
+    const component = renderWithRouterWrapper(<WorldwideCases path="/" />, {
       route: '/'
     });
 
@@ -54,10 +61,12 @@ describe('<Cases />', () => {
   });
 
   test('country cases page renders as expected', async () => {
-    const component = renderWithRouterMatch(Cases, {
-      path: '/:country?',
-      route: '/'
-    });
+    const component = renderWithRouterWrapper(
+      <CountryCases path=":country" />,
+      {
+        route: '/turkey'
+      }
+    );
 
     await waitForElementToBeRemoved(() => screen.queryAllByText(/loading/i));
 

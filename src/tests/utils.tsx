@@ -1,21 +1,22 @@
-import { Route, Router } from 'react-router-dom';
-import { createMemoryHistory } from 'history';
+import {
+  createHistory,
+  createMemorySource,
+  LocationProvider,
+  Router
+} from '@reach/router';
 import { render } from '@testing-library/react';
-import React from 'react';
 
-export function renderWithRouterMatch(
-  component: React.FunctionComponent,
-  {
-    path = '/',
-    route = '/',
-    history = createMemoryHistory({ initialEntries: [route] })
-  }
+// render function with Router wrapper from @reach/router
+export function renderWithRouterWrapper(
+  ui: Element,
+  { route = '/', history = createHistory(createMemorySource(route)) } = {}
 ) {
   return {
     ...render(
-      <Router history={history}>
-        <Route path={path} component={component} />
-      </Router>
-    )
+      <LocationProvider history={history}>
+        <Router>{ui}</Router>
+      </LocationProvider>
+    ),
+    history
   };
 }

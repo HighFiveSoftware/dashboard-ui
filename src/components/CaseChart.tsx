@@ -9,7 +9,7 @@ import {
 } from 'recharts';
 import { Card } from 'semantic-ui-react';
 import { format, isValid } from 'date-fns';
-import { ICase } from '../pages/Cases';
+import { ICase } from '../interfaces/Case';
 import { capitalize } from '../utils/utils';
 
 const FormatAxis = (tickItem: Date) => {

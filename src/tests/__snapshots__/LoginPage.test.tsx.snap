@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LoginForm /> worldwide cases page renders as expected 1`] = `
+exports[`<LoginForm /> form page renders as expected 1`] = `
 <DocumentFragment>
   <div
     class="ui center aligned middle aligned grid"

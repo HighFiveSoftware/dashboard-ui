@@ -1,0 +1,202 @@
+[
+  {
+    "countryRegion": "US",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 18755922,
+    "deathsToday": 330241,
+    "recoveredToday": 0,
+    "confirmedChange": 99584,
+    "deathsChange": 1223,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "India",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 10169118,
+    "deathsToday": 147343,
+    "recoveredToday": 9740108,
+    "confirmedChange": 22273,
+    "deathsChange": 251,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Brazil",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 7448560,
+    "deathsToday": 190488,
+    "recoveredToday": 6512717,
+    "confirmedChange": 24615,
+    "deathsChange": 506,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Russia",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 2963290,
+    "deathsToday": 52985,
+    "recoveredToday": 2374589,
+    "confirmedChange": 28595,
+    "deathsChange": 551,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "France",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 2604595,
+    "deathsToday": 62548,
+    "recoveredToday": 195365,
+    "confirmedChange": 20262,
+    "deathsChange": 159,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "United Kingdom",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 2227947,
+    "deathsToday": 70302,
+    "recoveredToday": 4822,
+    "confirmedChange": 32803,
+    "deathsChange": 570,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Turkey",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 2118255,
+    "deathsToday": 19371,
+    "recoveredToday": 1970803,
+    "confirmedChange": 17543,
+    "deathsChange": 256,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Italy",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 2028354,
+    "deathsToday": 71359,
+    "recoveredToday": 1377109,
+    "confirmedChange": 19037,
+    "deathsChange": 459,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Spain",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1854951,
+    "deathsToday": 49824,
+    "recoveredToday": 150376,
+    "confirmedChange": 0,
+    "deathsChange": 0,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Germany",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1632736,
+    "deathsToday": 29580,
+    "recoveredToday": 1235968,
+    "confirmedChange": 2140,
+    "deathsChange": 250,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Colombia",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1574707,
+    "deathsToday": 41690,
+    "recoveredToday": 1430709,
+    "confirmedChange": 14941,
+    "deathsChange": 236,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Argentina",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1574554,
+    "deathsToday": 42422,
+    "recoveredToday": 1384277,
+    "confirmedChange": 10689,
+    "deathsChange": 108,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Mexico",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1372243,
+    "deathsToday": 121837,
+    "recoveredToday": 1023916,
+    "confirmedChange": 9679,
+    "deathsChange": 665,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Poland",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1249079,
+    "deathsToday": 26992,
+    "recoveredToday": 984683,
+    "confirmedChange": 9081,
+    "deathsChange": 240,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Iran",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1189203,
+    "deathsToday": 54440,
+    "recoveredToday": 933736,
+    "confirmedChange": 6021,
+    "deathsChange": 132,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Ukraine",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1041583,
+    "deathsToday": 18255,
+    "recoveredToday": 670437,
+    "confirmedChange": 11458,
+    "deathsChange": 198,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Peru",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 1003982,
+    "deathsToday": 37317,
+    "recoveredToday": 940040,
+    "confirmedChange": 3829,
+    "deathsChange": 99,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "South Africa",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 983359,
+    "deathsToday": 26276,
+    "recoveredToday": 830251,
+    "confirmedChange": 14796,
+    "deathsChange": 293,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Netherlands",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 755038,
+    "deathsToday": 11015,
+    "recoveredToday": 8933,
+    "confirmedChange": 11545,
+    "deathsChange": 101,
+    "recoveredChange": 0
+  },
+  {
+    "countryRegion": "Indonesia",
+    "entryDate": "2020-12-26T00:00:00",
+    "confirmedToday": 700097,
+    "deathsToday": 20847,
+    "recoveredToday": 570304,
+    "confirmedChange": 7259,
+    "deathsChange": 258,
+    "recoveredChange": 0
+  }
+]
