@@ -8,7 +8,7 @@ import { render } from '@testing-library/react';
 
 // render function with Router wrapper from @reach/router
 export function renderWithRouterWrapper(
-  ui: Element,
+  ui: any,
   { route = '/', history = createHistory(createMemorySource(route)) } = {}
 ) {
   return {
