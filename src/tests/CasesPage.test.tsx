@@ -4,24 +4,19 @@ import { setupServer } from 'msw/node';
 import { screen, waitForElementToBeRemoved } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import worldWideData from './data/worldwideData.json';
-import countryData from './data/countryData.json';
-import topCountryData from './data/topCountryData.json';
+import regionalData from './data/regionalData.json';
 import { WorldwideCases } from '../pages/WorldwideCases';
 import { renderWithRouterWrapper } from './utils';
 import { API_URL } from '../constants';
-import { CountryCases } from '../pages/CountryCases';
+import { RegionalCases } from '../pages/RegionalCases';
 
 const server = setupServer(
   rest.get(`${API_URL}/cases/`, (req, res, ctx) => {
     const country = req.url.searchParams.get('country');
     if (country) {
-      return res(ctx.json(countryData));
+      return res(ctx.json(regionalData));
     }
     return res(ctx.json(worldWideData));
-  }),
-
-  rest.get(`${API_URL}/cases/topCountries`, (req, res, ctx) => {
-    return res(ctx.json(topCountryData));
   })
 );
 
@@ -40,8 +35,8 @@ describe('<Cases />', () => {
   });
 
   test('correctly renders with a country route', async () => {
-    renderWithRouterWrapper(<CountryCases path=":country" />, {
-      route: '/turkey'
+    renderWithRouterWrapper(<RegionalCases path="region/:region" />, {
+      route: '/region/turkey'
     });
 
     await waitForElementToBeRemoved(() => screen.getByText(/loading/i));
@@ -62,9 +57,9 @@ describe('<Cases />', () => {
 
   test('country cases page renders as expected', async () => {
     const component = renderWithRouterWrapper(
-      <CountryCases path=":country" />,
+      <RegionalCases path="region/:region" />,
       {
-        route: '/turkey'
+        route: 'region/turkey'
       }
     );
 

@@ -3,7 +3,7 @@ import { ICase } from '../interfaces/Case';
 import axios from '../utils/axios';
 
 export const useCases = (country?: string): [ICase[], any, boolean] => {
-  const [error, setError] = useState<any>(null);
+  const [error, setError] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(true);
   const [cases, setCases] = useState<ICase[]>([]);
 
@@ -25,7 +25,11 @@ export const useCases = (country?: string): [ICase[], any, boolean] => {
         },
         (err) => {
           setLoading(false);
-          setError(err);
+          if (err.response.status === 404) {
+            setError('Region not found');
+          } else {
+            setError(err.message);
+          }
         }
       );
   }, []);

@@ -1,29 +1,20 @@
 import { RouteComponentProps } from '@reach/router';
-import { Card, Container, Grid, Message } from 'semantic-ui-react';
+import { Grid, Message } from 'semantic-ui-react';
 import { CaseChart } from '../components/CaseChart';
 import { CaseStatistics } from '../components/CaseStatistics';
-import styles from './Cases.module.css';
 import { useCases } from '../hooks/useCases';
-import { DashboardTable } from '../components/DashboardTable';
-import { useTopCountries } from '../hooks/useTopCountries';
 
 // eslint-disable-next-line no-unused-vars
 export const WorldwideCases = (props: RouteComponentProps) => {
   const [cases, error, loading] = useCases();
-  const [topCountries, error2, loading2] = useTopCountries();
 
-  if (loading || loading2) return <div>Loading</div>;
+  if (loading) return <div>Loading</div>;
 
   return (
-    <Container className={styles.main_container}>
+    <div>
       {error && (
         <Message negative>
           <Message.Header>Error: {error.message}</Message.Header>
-        </Message>
-      )}
-      {error2 && (
-        <Message negative>
-          <Message.Header>Error: {error2.message}</Message.Header>
         </Message>
       )}
 
@@ -46,18 +37,6 @@ export const WorldwideCases = (props: RouteComponentProps) => {
         </Grid.Row>
         <Grid.Row>
           <Grid.Column>
-            <Card fluid>
-              <Card.Content>
-                <Card.Header>Top Countries</Card.Header>
-              </Card.Content>
-              {/* <Card.Content> */}
-              <DashboardTable topCases={topCountries} />
-              {/* </Card.Content> */}
-            </Card>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column>
             <CaseChart title="Total Cases" values={cases} dataKey="today" />
           </Grid.Column>
         </Grid.Row>
@@ -67,6 +46,6 @@ export const WorldwideCases = (props: RouteComponentProps) => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    </Container>
+    </div>
   );
 };

@@ -1,16 +1,30 @@
+import { Router, LocationProvider } from '@reach/router';
+import { Container } from 'semantic-ui-react';
 import React from 'react';
-import { Router } from '@reach/router';
-import { WorldwideCases } from './pages/WorldwideCases';
 import { LoginForm } from './pages/LoginForm';
-import { CountryCases } from './pages/CountryCases';
+import { WorldwideCases } from './pages/WorldwideCases';
+import { RegionalCases } from './pages/RegionalCases';
+import { Topbar } from './components/Topbar';
+import styles from './App.module.css';
+import { TopCountries } from './pages/TopCountries';
 
 const App: React.FC = () => {
+  // const contextRef = useRef(null);
+
   return (
-    <Router>
-      <WorldwideCases path="/" />
-      <LoginForm path="login" />
-      <CountryCases path=":country" />
-    </Router>
+    <div>
+      <Container className={styles.main_container}>
+        <LocationProvider>
+          <Topbar />
+        </LocationProvider>
+        <Router>
+          <WorldwideCases path="/" />
+          <LoginForm path="/login" />
+          <TopCountries path="/topCountries" />
+          <RegionalCases path="/region/:region" />
+        </Router>
+      </Container>
+    </div>
   );
 };
 

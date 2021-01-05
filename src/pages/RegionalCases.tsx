@@ -1,24 +1,23 @@
 import { RouteComponentProps } from '@reach/router';
-import { Container, Grid, Message } from 'semantic-ui-react';
+import { Grid, Message } from 'semantic-ui-react';
 import { CaseChart } from '../components/CaseChart';
 import { CaseStatistics } from '../components/CaseStatistics';
-import styles from './Cases.module.css';
 import { capitalize } from '../utils/utils';
 import { useCases } from '../hooks/useCases';
 
-interface ICountryCasesProps extends RouteComponentProps {
-  country?: string;
+interface IRegionalCasesProps extends RouteComponentProps {
+  region?: string;
 }
 
-export const CountryCases = ({ country }: ICountryCasesProps) => {
-  const [cases, error, loading] = useCases(country);
+export const RegionalCases = ({ region }: IRegionalCasesProps) => {
+  const [cases, error, loading] = useCases(region);
   if (loading) return <div>Loading</div>;
 
   return (
-    <Container className={styles.main_container}>
+    <div>
       {error && (
         <Message negative>
-          <Message.Header>Error: {error.message}</Message.Header>
+          <Message.Header>Error: {error}</Message.Header>
         </Message>
       )}
 
@@ -26,7 +25,7 @@ export const CountryCases = ({ country }: ICountryCasesProps) => {
         <Grid.Row>
           <Grid.Column width={8}>
             <CaseStatistics
-              title={`${country ? capitalize(country) : 'Worldwide'} Cases`}
+              title={`${region ? capitalize(region) : 'Worldwide'} Cases`}
               values={
                 cases.length > 0
                   ? [
@@ -50,6 +49,6 @@ export const CountryCases = ({ country }: ICountryCasesProps) => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    </Container>
+    </div>
   );
 };

@@ -7,7 +7,7 @@ interface IDashboardTableProps {
   topCases: ITopCountry[];
 }
 
-export const DashboardTable = ({ topCases }: IDashboardTableProps) => {
+export const TopCountryTable = ({ topCases }: IDashboardTableProps) => {
   const data = React.useMemo<ITopCountry[]>(() => topCases, []);
 
   const columns = React.useMemo(
