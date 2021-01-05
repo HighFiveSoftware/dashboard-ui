@@ -1,49 +1,29 @@
-import { Router } from '@reach/router';
-import { Menu, Sticky } from 'semantic-ui-react';
-import React, { useState, useRef } from 'react';
+import { Router, LocationProvider } from '@reach/router';
+import { Container } from 'semantic-ui-react';
+import React from 'react';
 import { LoginForm } from './pages/LoginForm';
 import { WorldwideCases } from './pages/WorldwideCases';
-import { CountryCases } from './pages/CountryCases';
+import { RegionalCases } from './pages/RegionalCases';
+import { Topbar } from './components/Topbar';
+import styles from './App.module.css';
+import { TopCountries } from './pages/TopCountries';
 
 const App: React.FC = () => {
-  const contextRef = useRef(null);
-  const [activeItem, setActiveItem] = useState('gamepad');
+  // const contextRef = useRef(null);
 
-  const handleItemClick = (name: string) => setActiveItem(name);
   return (
-    <div ref={contextRef}>
-      <Sticky context={contextRef}>
-        <Menu size="large">
-          <Menu.Item
-            name="gamepad"
-            active={activeItem === 'gamepad'}
-            onClick={(_e, { name }) => handleItemClick(name!)}
-          >
-            Games
-          </Menu.Item>
-
-          <Menu.Item
-            name="video camera"
-            active={activeItem === 'video camera'}
-            onClick={(_e, { name }) => handleItemClick(name!)}
-          >
-            Channels
-          </Menu.Item>
-
-          <Menu.Item
-            name="video play"
-            active={activeItem === 'video play'}
-            onClick={(_e, { name }) => handleItemClick(name!)}
-          >
-            Videos
-          </Menu.Item>
-        </Menu>
-      </Sticky>
-      <Router>
-        <WorldwideCases path="/" />
-        <LoginForm path="login" />
-        <CountryCases path=":country" />
-      </Router>
+    <div>
+      <Container className={styles.main_container}>
+        <LocationProvider>
+          <Topbar />
+        </LocationProvider>
+        <Router>
+          <WorldwideCases path="/" />
+          <LoginForm path="/login" />
+          <TopCountries path="/topCountries" />
+          <RegionalCases path="/region/:region" />
+        </Router>
+      </Container>
     </div>
   );
 };
