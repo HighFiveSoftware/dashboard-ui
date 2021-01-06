@@ -33,7 +33,7 @@ export const Topbar = () => {
         </Menu.Item>
 
         <Menu.Item
-          name="topCountries"
+          name="/topCountries"
           active={activeMenu === '/topCountries'}
           onClick={(_e, { name }) => handleItemClick(name!)}
         >

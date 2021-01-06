@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ICase } from '../interfaces/Case';
 import axios from '../utils/axios';
 
-export const useCases = (country?: string): [ICase[], any, boolean] => {
+export const useCases = (region?: string): [ICase[], any, boolean] => {
   const [error, setError] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(true);
   const [cases, setCases] = useState<ICase[]>([]);
@@ -10,7 +10,7 @@ export const useCases = (country?: string): [ICase[], any, boolean] => {
   useEffect(() => {
     axios
       .get<ICase[]>('/cases/', {
-        params: country ? { country } : {}
+        params: region ? { country: region } : {}
       })
       .then(
         (result) => {
@@ -32,7 +32,7 @@ export const useCases = (country?: string): [ICase[], any, boolean] => {
           }
         }
       );
-  }, []);
+  }, [region]);
 
   return [cases, error, loading];
 };
