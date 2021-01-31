@@ -1,8 +1,10 @@
 import { useLocation, navigate } from '@reach/router';
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Button, Container, Input, Menu } from 'semantic-ui-react';
+import LoginContext from '../context/LoginContext';
 
 export const Topbar = () => {
+  const { loggedIn } = useContext(LoginContext);
   const location = useLocation();
 
   const [activeMenu, setActiveMenu] = useState(location.pathname);
@@ -39,6 +41,16 @@ export const Topbar = () => {
         >
           Top Countries
         </Menu.Item>
+
+        {loggedIn && (
+          <Menu.Item
+            name="/admin/ingestor"
+            active={activeMenu === '/admin/ingestor'}
+            onClick={(_e, { name }) => handleItemClick(name!)}
+          >
+            Ingestor Report
+          </Menu.Item>
+        )}
 
         <Menu.Item position="right" name={undefined}>
           <Input
