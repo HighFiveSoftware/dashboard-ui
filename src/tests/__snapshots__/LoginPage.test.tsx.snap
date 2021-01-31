@@ -22,14 +22,17 @@ exports[`<LoginForm /> form page renders as expected 1`] = `
           class="ui stacked segment"
         >
           <div
-            class="field"
+            class="required field"
           >
             <div
               class="ui fluid left icon input"
             >
               <input
+                name="email"
                 placeholder="E-mail address"
+                required=""
                 type="text"
+                value=""
               />
               <i
                 aria-hidden="true"
@@ -38,14 +41,17 @@ exports[`<LoginForm /> form page renders as expected 1`] = `
             </div>
           </div>
           <div
-            class="field"
+            class="required field"
           >
             <div
               class="ui fluid left icon input"
             >
               <input
+                name="password"
                 placeholder="Password"
+                required=""
                 type="password"
+                value=""
               />
               <i
                 aria-hidden="true"

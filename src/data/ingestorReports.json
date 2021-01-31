@@ -1,0 +1,32 @@
+[
+    {
+        "success": true,
+        "ingestionTime": 10,
+        "ingestedCount": 103542,
+        "ingestionDate": "28 January 2021 9:30 AM"
+    },
+    {
+        "success": true,
+        "ingestionTime": 12,
+        "ingestedCount": 124453,
+        "ingestionDate": "29 January 2021 9:30 AM"
+    },
+    {
+        "success": false,
+        "ingestionTime": 24,
+        "ingestedCount": 243525,
+        "ingestionDate": "30 January 2021 9:30 AM"
+    },
+    {
+        "success": true,
+        "ingestionTime": 9,
+        "ingestedCount": 95325,
+        "ingestionDate": "31 January 2021 9:30 AM"
+    },
+    {
+        "success": false,
+        "ingestionTime": 18,
+        "ingestedCount": 18543,
+        "ingestionDate": "01 February 2021 9:30 AM"
+    }
+]
